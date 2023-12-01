@@ -1,4 +1,7 @@
- // creates React element
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// creates React element
  const heading = React.createElement("h1",{id:"heading"}, "hello world from React"); //gives Rea
 
 /**
